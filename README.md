@@ -17,9 +17,9 @@ Desarrollador web FullStack
   
 ### Ejercicio 2
   - 1. *¿Qué es un servidor HTTP?*
-      Es una computadora que tiene un programa o servicio que almacena, procesa y entrega recursos web a una página en base a solicitudes mediante el protocolo HTTP.
+      * Es una computadora que tiene un programa o servicio que almacena, procesa y entrega recursos web a una página en base a solicitudes mediante el protocolo HTTP.
   - 2. *¿Qué son los verbos HTTP? Mencionar los más conocidos*
-      Son los métodos que definen las acciones que se pueden ejecutar en una comunicación HTTP, por ejemplo:
+      * Son los métodos que definen las acciones que se pueden ejecutar en una comunicación HTTP, por ejemplo:
         * *GET:* Obtener datos de un recurso.
         * *POST:* Enviar datos para un nuevo recurso.
         * *PUT:* Actualizar datos de un recurso existente.
