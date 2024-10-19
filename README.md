@@ -1,6 +1,6 @@
 # ProContacto - Evaluación Práctica
 > Una interesante forma de resolver ejercicios prácticos propuesto por ProContacto
-> <img src="profile-photo.png" align="right" width=10px height=10px />
+> <img src="profile-photo.png" align="right" width=40px height=40px />
 
 J. Jordan D. Godoy
 Desarrollador web FullStack
