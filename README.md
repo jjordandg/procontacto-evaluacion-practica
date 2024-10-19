@@ -1,6 +1,6 @@
 # ProContacto - Evaluación Práctica
 > Una interesante forma de resolver ejercicios prácticos propuesto por ProContacto
-> <img src="profile-photo.png" align="right"/>
+> <img src="profile-photo.png" align="right" width=10px height=10px />
 
 J. Jordan D. Godoy
 Desarrollador web FullStack
@@ -38,7 +38,7 @@ Desarrollador web FullStack
         * *Cód. 401:* Unauthorized
   - 6. *¿Cómo se envía la data en un GET y cómo en un POST?*  
       En un *GET* se envían los datos mediante la URL como parámetros en el _queryString_ y en un *POST* los datos se envían en el _body_ de la solicitud. 
-  - 7. *¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?*
+  - 7. *¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?*  
       Se usa el verbo *GET* cuando accedemos a una página web mediante el navegador.
 > [!IMPORTANT]
 > El verbo *GET* es el verbo por defecto que se utiliza cuando no es especificado por la solicitud.
