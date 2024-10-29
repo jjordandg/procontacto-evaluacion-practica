@@ -137,6 +137,8 @@ Desarrollador
   <br></br>
   <img src="Diagrama-Ejercicio-5.png" align="left"/>
   <br></br><br></br><br></br><br></br><br></br><br></br>
+> Diagrama de las relaciones de los objetos
+
 
 ### Ejercicio 6  
 
