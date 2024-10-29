@@ -78,11 +78,11 @@ Desarrollador web FullStack
 
 ### Ejercicio 3
    - 1. Realizamos un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
-  <img src="1.png" align="letf"/>
+        <img src="1.png" align="letf"/>
    - 2. Realizamos un request POST a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
-  <img src="2.png" align="letf"/>
+        <img src="2.png" align="letf"/>
    - 3. Volvemos a realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
-  <img src="3.png" align="letf"/>
+        <img src="3.png" align="letf"/>
         * Se puede observar, que el POST hecho en el **punto 2** ahora se ve reflejado  
 
 
