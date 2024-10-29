@@ -51,7 +51,7 @@ Desarrollador
 > [!IMPORTANT]
 > El verbo *GET* es el verbo por defecto que se utiliza cuando no es especificado por la solicitud.
   8. *Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles*  
-   JSON (JavaScript Object Notation):* Es un formato de intercambio de datos fácil de leer y de escribir. Ejemplo:
+   **JSON (JavaScript Object Notation):** Es un formato de intercambio de datos fácil de leer y de escribir. Ejemplo:
    ```
       {
       "nombre": "Jordan",
@@ -61,7 +61,7 @@ Desarrollador
       "contratar": true
       }
    ```
-   XML (eXtensible Markup Language):* Es un formato más estructurado y formal, usado para representar datos, es parecido a HTML. Ejemplo:
+   **XML (eXtensible Markup Language):** Es un formato más estructurado y formal, usado para representar datos, es parecido a HTML. Ejemplo:
 
    ```
       <candidato>
@@ -93,6 +93,46 @@ Desarrollador
   [Ver mi perfil de Trailhead](https://www.salesforce.com/trailblazer/t5dhro8lc2mqbpqhmj)
 
 ### Ejercicio 5  
+  1. **Lead**  
+    + Un _Lead_ representa una persona o una organización con interes en los productos o servicios de la organización, pero aún no es un cliente potencial.
+    + **Datos estándar:** _Name, Company, Phone, Email, Industry, Lead Source, Status, Rating, Owner._ 
+    + Se relaciona con los objetos _Account, Contact y Opportunity_.  
+  2. **Account**
+    + Un _Account_ representa una empresa o una entidad con la empresa que tiene una relación.
+    + **Datos estándar:** _Name, Account Number, Industry, Website, Phone, Type, Billing Address, Number of Employees, Annual Revenue, Ownership, Account Source, Parent Account, Owner._
+    + Se relaciona directamente con _Contacts_ que son las personas en esa organización, también con _Opportunity_ que son las ventas relacionadas con ese cliente. También se relacionan con los _Assets_ que son los activos del cliente y con _Cases_ que son los soportes del cliente. 
+  3. **Contact**  
+    + Un _Contact_ representa una persona dentro de una cuenta de la empresa. 
+    + **Datos estándar:**  _First Name, Last Name, Account Name, Title, Phone, Email, Departament, Mailing Address, Birthdate, Lead Source, Owner._
+    + Se relaciona directamente con _Accounts_ y también puede estar relacionado a múltiples _Opportunity_ y _Case_. 
+  4. **Opportunity**
+    + Un _Opportunity_ es una posible venta o negocio que se produce con un _Account_
+    + **Datos estándar:**  _Opportunity Name, Account Name, Stage, Close Date, Amount, Probability, Lead Source, Type, Next Step, Owner._ 
+    + Se relaciona a un _Account_, pueden incluir varios _Contact_ con _Quotes_ y _Products_.  
+  5. **Product**
+    + Un _Product_ represeta bienes o servicios que ofrece la organización. 
+    + **Datos estándar:** _Product Name, Product Code, Description, Product Family, IsActive, Quantity, Revenue Schedule, Cost, Standard Price._ 
+    + Se relaciona con los _PriceBooks_ y se pueden agregar a _Opportunity_ y _Quotes_ lo cual definden los productos que ofrece la organización. 
+  6. **PriceBook**
+    + Es una lista de precios que contiene una colección de productos. 
+    + **Datos estándar:** _Price Book Name, Description, IsActive._
+    + Se relacionan directamente con  _Products_. También, cada _Opportunity_ y _Quote_ usan un _PriceBook_.  
+  7. **Quote**
+    + Un _Quote_ es una propuesta que detalla los productos, precios y condiciones que se ofrecen a un cliente en una oportunidad de venta. 
+    + **Datos estándar:** _Quote Name, Opportunity Name, Quote Number, Status, Expiration Date, Description, Price Book, Tax, Discount, Total Price, Owner._
+    + Un _Quote_ se relaciona directamente con _Opportunity_ y usa un _PriceBook_ para definir los precios cotizados. 
+  8. **Asset**
+    + Un _Asset_ representa un producto o servicio que un cliente compró a la cual, la organización le debe ofrecer soporte y/o mantenimiento.
+    + **Datos estándar:** _Asset Name, Account Name, Product, Serial Number, Install Date, Purchase Date, Usage End Date, Status, Quantity, Price, Owner._
+    + Un _Asset_ se relaciona con _Account_, ya que es el cliente que posee el producto o servicio, y también se pueden relacionar con _Case_ si el cliente solicita soporte. 
+  9. **Case**
+    + Un _Case_ es un registro de una solicitud de soporte reportado por un cliente. 
+    + **Datos estándar:** _Case Number, Account Name, Contact Name, Status, Priority, Origin, Type, Subject, Description, Reason, Owner._ 
+    + Un _Case_ se vincula con _Account_ y con _Contact_, dado que las personas de las organizaciones clientes son quienes hacen pedidos de soporte. También se puede relacionar con _Asset_ si el pedido de soporte está relacionado con un producto o servicio. 
+  10. **Article**
+    + Un _Article_ es un artículo de Salesforce, que se usa para ayudar a resolver problemas de los clientes. 
+    + **Datos estándar:** _Title, Summary, Article Number, URL Name, Article Type, Last Published Date, Owner, Article Body, Keywords, Expiration Date._ 
+    + Un _Article_ no está relacionado directamente con otros objetos, pero los _Case_ pueden dar uso a los _Article_ para ayudar en la asistencia al usuario.  
 
 ### Ejercicio 6  
 
