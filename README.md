@@ -16,7 +16,9 @@ Desarrollador web FullStack
     <img src="IDEVSC.png" align="letf" width=140px height=140px />
   - 2. Instalar GIT y GIT Bash:
     <img src="GIT-GITBash.png" align="left" width=140px height=140px />
-> Instalados ambos programas  
+> Instalados ambos programas
+
+
 ### Ejercicio 2
   - 1. **¿Qué es un servidor HTTP?**  
       Es una computadora que tiene un programa o servicio que almacena, procesa y entrega recursos web a una página en base a solicitudes mediante el protocolo HTTP.
