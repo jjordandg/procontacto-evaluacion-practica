@@ -16,7 +16,7 @@ Desarrollador web FullStack
     <img src="IDEVSC.png" align="letf" width=140px height=140px />
   - 2. Instalar GIT y GIT Bash:
     <img src="GIT-GITBash.png" align="left" width=140px height=140px />
-    <br></br>
+    <br></br><br></br><br></br>
 > Instalados ambos programas
 
 
