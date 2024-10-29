@@ -15,7 +15,7 @@ Desarrollador web FullStack
   - 1. Instalar el IDE Visual Studio Code:
     <img src="IDEVSC.png" align="letf" width=140px height=140px />
   - 2. Instalar GIT y GIT Bash:
-    <img src="GIT-GITBash.png" align="left" width=140px height=140px />
+    <img src="GIT-GITBash.png" align="left" width=140px height=140px />  
   
 ### Ejercicio 2
   - 1. **¿Qué es un servidor HTTP?**  
