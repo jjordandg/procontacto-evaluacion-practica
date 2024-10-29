@@ -96,7 +96,7 @@ Desarrollador
   1. **Lead**  
      Un _Lead_ representa una persona o una organización con interes en los productos o servicios de la organización, pero aún no es un cliente potencial.  
      **Datos estándar:** _Name, Company, Phone, Email, Industry, Lead Source, Status, Rating, Owner._  
-     Se relaciona con los objetos _Account, Contact y Opportunity_ (Un _Opportunity es un _Lead_ convertido).  
+     Se relaciona con los objetos _Account, Contact y Opportunity_ (Un _Opportunity_ es un _Lead_ convertido).  
   2. **Account**  
      Un _Account_ representa una empresa o una entidad con la empresa que tiene una relación.  
      **Datos estándar:** _Name, Account Number, Industry, Website, Phone, Type, Billing Address, Number of Employees, Annual Revenue, Ownership, Account Source, Parent Account, Owner._  
