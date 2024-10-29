@@ -133,11 +133,8 @@ Desarrollador
      Un _Article_ es un artículo de Salesforce, que se usa para ayudar a resolver problemas de los clientes.  
      **Datos estándar:** _Title, Summary, Article Number, URL Name, Article Type, Last Published Date, Owner, Article Body, Keywords, Expiration Date._  
      Un _Article_ no está relacionado directamente con otros objetos, pero los _Case_ pueden dar uso a los _Article_ para ayudar en la asistencia al usuario.  
-
-  <br></br>
-  <img src="Diagrama-Ejercicio-5.png" align="left"/>
-  <br></br><br></br><br></br><br></br><br></br><br></br>
-> Diagrama de las relaciones de los objetos
+    <img src="Diagrama-Ejercicio-5.png" align="left"/>
+    > Diagrama de las relaciones de los objetos
 
 
 ### Ejercicio 6  
