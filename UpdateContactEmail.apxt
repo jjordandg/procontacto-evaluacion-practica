@@ -4,7 +4,7 @@ trigger UpdateContactEmail on Contact (before insert, before update) {
         String idProContacto = '-O9J8hAEN3clx__fFhSj';
         for (Contact contact :Trigger.new) {
             
-            if (contact.idprocontacto__c == idProContacto){
+            if (contact.idprocontacto__c.equals(idProContacto)){
                 Http http = new Http();
                 HttpRequest request = new HttpRequest();
                 request.setEndpoint('https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/' + idProContacto + '.json');
