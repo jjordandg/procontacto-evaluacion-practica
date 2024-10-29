@@ -76,6 +76,14 @@ Desarrollador web FullStack
       Los *headers* en un request son campos extra que proporcionan información sobre una solicitud, como por ejemplo, el tipo de cliente o el formato de los datos.
       El *header _Content-Type_* se usa para indicar el tipo de contenido que se está enviado o se espera recibir. Por ejemplo _application/json_. 
 
+### Ejercicio 3
+  1. Realizamos un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+  <img src="1.png" align="letf"/>
+  2. Realizamos un request POST a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+  <img src="2.png" align="letf"/>
+  3. Volvemos a realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+  <img src="3.png" align="letf"/>
+     - Se puede observar, que el POST hecho en el **punto 2** ahora se ve reflejado  
 
 
 
