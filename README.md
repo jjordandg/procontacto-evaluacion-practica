@@ -15,11 +15,11 @@ Desarrollador web FullStack
   1. Instalar el IDE Visual Studio Code:
     <br></br>
     <img src="IDEVSC.png" align="letf" width=140px height=140px />
-    <br></br>>
+    <br></br>
   2. Instalar GIT y GIT Bash:
     <br></br>
     <img src="GIT-GITBash.png" align="left" width=140px height=140px />
-    <br></br>
+    <br></br><br></br><br></br>
 > Instalados ambos programas
 
 
