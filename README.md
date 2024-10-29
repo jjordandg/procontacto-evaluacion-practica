@@ -12,8 +12,10 @@ Desarrollador web FullStack
 > A continuación se encuentran todos los ejercicios propuestos por ProContacto.
 
 ### Ejercicio 1
-  - 1. Instalar el IDE Visual Studio Code: Ya lo tenía instalado previo a comenzar la evaluación práctica.
-  - 2. Instalar GIT y GIT Bash: También ya lo tenía instalado previamente.
+  - 1. Instalar el IDE Visual Studio Code:
+    <img src="IDEVSC.png" align="letf" width=140px height=140px />
+  - 2. Instalar GIT y GIT Bash:
+    <img src="GIT-GITBash.png" align="left" width=140px height=140px />
   
 ### Ejercicio 2
   - 1. **¿Qué es un servidor HTTP?**  
