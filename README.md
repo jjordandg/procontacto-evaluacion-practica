@@ -109,35 +109,38 @@ Desarrollador web FullStack
 #### Funcionalidades de Salesforce
 
   - **¿Qué es un RecordType?**
-    * Respuesta 
+    * Es una configuración que permite personalizar el comportamiento de un objeto según distintos tipos de registros. 
   - **¿Qué es un ReportType?**
-    * Respuesta  
+    * Es una plantilla que define qué objetos y campos están disponibles en un reporte.  
   - **¿Qué es un Page Layout?**
-    * Respuesta 
+    * Es la configuración que define la disposición de campos, secciones y botones en una página de un registro. 
   - **¿Qué es un Compact Layout?**
-    * Respuesta   
+    * Es el diseño simplificado de campos clave que se muestra en dispositivos móviles.   
   - **¿Qué es un Perfil?**
-    * Respuesta   
+    * Es la configuración que define los permisos de acceso y control sobre objetos, campos y funciones de Salesforce para sus usuarios.   
   - **¿Qué es un Rol?**
-    * Respuesta  
+    * Es la estructura que define la jerarquía de acceso y visibilidad de datos.  
   - **¿Qué es un Validation Rule?**
-    * Respuesta   
+    * Es una regla que valida la entrada de datos en un campo, asegura que esta entrada de datos cumple con ciertos criterios para guardarse.
   - **¿Qué diferencia hay entre una relación Master Detail y Lookup?**
-    * Respuesta   
+    * _Master-Detail_ es una relación de dependencia fuerte entre registros, con control de permisos y eliminación en cascada.
+    * _Lookup_ es una relación más flexible, sin dependencia total entre registros.
   - **¿Qué es un Sandbox?** 
-    * Respuesta   
+    * Es un entorno de pruebas aislado de producción donde los desarrolladores pueden realizar tests sin afectar los datos reales.    
   - **¿Qué es un ChangeSet?**
-    * Respuesta   
+    * Es una colección de cambios que se pueden enviar de un entorno de Salesforce a otro.   
   - **¿Para qué sirve el import Wizard de Salesforce?**
-    * Respuesta   
+    * Sirve para importar datos en masa a Salesforce desde archivos   
   - **¿Para qué sirve la funcionalidad Web to Lead?**
-    * Respuesta   
+    * Es para capturar automáticamente prospectos de un formulario web y crear registros de los clientes potenciales (_leads_) en Salesforce.   
   - **¿Para qué sirve la funcionalidad Web to Case?**
-    * Respuesta   
+    * Es capturar solicitudes de soporte desde un formulario web, creando casos automáticamente en Salesforce para su seguimiento.   
   - **¿Para qué sirve la funcionalidad Omnichannel?**
-    * Respuesta   
+    * Es para gestionar y asignar solicitudes de clientes desde distintos canales como, chat y correo electrónico, a los agentes disponibles para mejorar la eficiencia del soporte.    
   - **¿Para qué sirve la funcionalidad Chatter?**
-    * Respuesta   
+    * Es una herramienta de chat en Salesforce que permite a los empleados enviar mensajes, compartir archivos y trabajar en equipo dentro de la plataforma.
+   
+#### Conceptos generales   
 
 
 ### Ejercicio 6  
