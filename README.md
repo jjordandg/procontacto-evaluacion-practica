@@ -12,42 +12,42 @@ Desarrollador web FullStack
 > A continuación se encuentran todos los ejercicios propuestos por ProContacto.
 
 ### Ejercicio 1
-  - 1. Instalar el IDE Visual Studio Code:
+  1. Instalar el IDE Visual Studio Code:
     <img src="IDEVSC.png" align="letf" width=140px height=140px />
-  - 2. Instalar GIT y GIT Bash:
+  2. Instalar GIT y GIT Bash:
     <img src="GIT-GITBash.png" align="left" width=140px height=140px />
     <br></br><br></br><br></br>
 > Instalados ambos programas
 
 
 ### Ejercicio 2
-  - 1. **¿Qué es un servidor HTTP?**  
+  1. **¿Qué es un servidor HTTP?**  
       Es una computadora que tiene un programa o servicio que almacena, procesa y entrega recursos web a una página en base a solicitudes mediante el protocolo HTTP.
-  - 2. *¿Qué son los verbos HTTP? Mencionar los más conocidos*  
+  2. *¿Qué son los verbos HTTP? Mencionar los más conocidos*  
       * Son los métodos que definen las acciones que se pueden ejecutar en una comunicación HTTP, por ejemplo:
         * *GET:* Obtener datos de un recurso.
         * *POST:* Enviar datos para un nuevo recurso.
         * *PUT:* Actualizar datos de un recurso existente.
         * *DELETE:* Elimina los datos de un recurso.
-  - 3. *¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?*  
+  3. *¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?*  
       * *Request:* Es la solicitud que envía un cliente al servidor.
       * *Response:* Es la respuesta que recibe el cliente del servidor.
       * *Headers:* Es la información adicional que se envían en el _request_ y en el _response_ que proporcionan información sobre la solicitud o respuesta, por ejemplo, el tipo del contenido, tamaño, autenticación, etc.
-  - 4. *¿Qué es una queryString? (En el contexto de una URL)*  
+  4. *¿Qué es una queryString? (En el contexto de una URL)*  
       Es la parte de la URL que que se encuentra después de *?*, estos son parámetros compuestos por pares de _clave-valor_ los cuales se usan para pasarle información al servidor.
-  - 5. *¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?*  
+  5. *¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?*  
       Son los códigos de estado posibles que tienen las solicitudes, esto representa el estado de la respuesta de la solicitud. Por ejemplo:
         * *Cód. 200:* OK.
         * *Cód. 404:* Not Found.
         * *Cód. 500:* Internal Server Error
         * *Cód. 401:* Unauthorized
-  - 6. *¿Cómo se envía la data en un GET y cómo en un POST?*  
+  6. *¿Cómo se envía la data en un GET y cómo en un POST?*  
       En un *GET* se envían los datos mediante la URL como parámetros en el _queryString_ y en un *POST* los datos se envían en el _body_ de la solicitud. 
-  - 7. *¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?*  
+  7. *¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?*  
       Se usa el verbo *GET* cuando accedemos a una página web mediante el navegador.
 > [!IMPORTANT]
 > El verbo *GET* es el verbo por defecto que se utiliza cuando no es especificado por la solicitud.
-  - 8. *Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles*  
+  8. *Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles*  
     *JSON (JavaScript Object Notation):* Es un formato de intercambio de datos fácil de leer y de escribir. Ejemplo:
       ```
       {
@@ -68,20 +68,20 @@ Desarrollador web FullStack
         <contratar>true</contratar>
       </candidato>
       ```
-  - 9. *Explicar brevemente el estándar SOAP*  
+  9. *Explicar brevemente el estándar SOAP*  
       *SOAP (Simple Object Access Protocol):* Es un protocolo basado en XML que dicta cómo intercambiar mensajes estructurados entre aplicaciones a través de redes, usado mayormente en servicios web. Ofrece un alto nivel de seguridad y permite transacciones complejas.
-  - 10. *Explicar brevemente el estándar RESTful*  
+  10. *Explicar brevemente el estándar RESTful*  
       *REST (REpresentational State Transfer):* Es una técnica de arquitectura de software que ayuda a crear una forma de pensar y contruir APIs. Separa a cliente y servidor, haciendo ambas partes independientes. Es un protocolo sin estado, cada petición HTTP debe contener toda la información necesaria para poder ser resuelta.
-  - 11. *¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-Type en un header?*  
+  11. *¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-Type en un header?*  
       Los *headers* en un request son campos extra que proporcionan información sobre una solicitud, como por ejemplo, el tipo de cliente o el formato de los datos.
       El *header _Content-Type_* se usa para indicar el tipo de contenido que se está enviado o se espera recibir. Por ejemplo _application/json_. 
 
 ### Ejercicio 3
-   - 1. Realizamos un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+  1. Realizamos un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
         <img src="1.png" align="letf"/>
-   - 2. Realizamos un request POST a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+  2. Realizamos un request POST a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
         <img src="2.png" align="letf"/>
-   - 3. Volvemos a realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+  3. Volvemos a realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
         <img src="3.png" align="letf"/>
         * Se puede observar, que el POST hecho en el **punto 2** ahora se ve reflejado
        
@@ -91,49 +91,49 @@ Desarrollador web FullStack
 ### Ejercicio 5  
 
 #### Soluciones de Salesforce
-  - A. **¿Qué es Salesforce?**  
+  - **¿Qué es Salesforce?**  
     + Salesforce es una plataforma de software en la nube que ofrece soluciones de gestion de relaciones con los clientes (CRM), este ayuda a las empresas a gestionar y automatizar sus procesos. Dado que es una solución en la nube, permite acceder a la información desde cualquier lugar facilitando el trabajo de sus clientes.  
-  - B. **¿Qué es Sales Cloud?**  
+  - **¿Qué es Sales Cloud?**  
     + Sales Cloud es uno de los productos de Salesforce fabricado especialmente para optimizar procesos de ventas.  
-  - C. **¿Qué es Service Cloud?**  
+  - **¿Qué es Service Cloud?**  
     + Service Cloud es una solución enfocada en mejorar el servicio y soporte al cliente.   
-  - D. **¿Qué es Health Cloud?**  
+  - **¿Qué es Health Cloud?**  
     + Health Cloud es una plataforma de Salesforce enfocada en el sector de la salud.  
-  - E. **¿Qué es Marketing Cloud?**  
+  - **¿Qué es Marketing Cloud?**  
     + Marketing Cloud es una plataforma de Salesforce enfocada en mejorar y optimizar estrategias de marketing digital.
 
 
 #### Funcionalidades de Salesforce
 
-  - A. **¿Qué es un RecordType?**
+  - **¿Qué es un RecordType?**
     +
-  - B. **¿Qué es un ReportType?**
+  - **¿Qué es un ReportType?**
     +   
-  - C. **¿Qué es un Page Layout?**
+  - **¿Qué es un Page Layout?**
     +  
-  - D. **¿Qué es un Compact Layout?**
+  - **¿Qué es un Compact Layout?**
     +   
-  - E. **¿Qué es un Perfil?**
+  - **¿Qué es un Perfil?**
     +   
-  - F. **¿Qué es un Rol?**
+  - **¿Qué es un Rol?**
     +  
-  - G. **¿Qué es un Validation Rule?**
+  - **¿Qué es un Validation Rule?**
     +   
-  - H. **¿Qué diferencia hay entre una relación Master Detail y Lookup?**
+  - **¿Qué diferencia hay entre una relación Master Detail y Lookup?**
     +   
-  - I. **¿Qué es un Sandbox?** 
+  - **¿Qué es un Sandbox?** 
     +   
-  - J. **¿Qué es un ChangeSet?**
+  - **¿Qué es un ChangeSet?**
     +   
-  - K. **¿Para qué sirve el import Wizard de Salesforce?**
+  - **¿Para qué sirve el import Wizard de Salesforce?**
     +   
-  - L. **¿Para qué sirve la funcionalidad Web to Lead?**
+  - **¿Para qué sirve la funcionalidad Web to Lead?**
     +   
-  - M. **¿Para qué sirve la funcionalidad Web to Case?**
+  - **¿Para qué sirve la funcionalidad Web to Case?**
     +   
-  - N. **¿Para qué sirve la funcionalidad Omnichannel?**
+  - **¿Para qué sirve la funcionalidad Omnichannel?**
     +   
-  - O. **¿Para qué sirve la funcionalidad Chatter?**
+  - **¿Para qué sirve la funcionalidad Chatter?**
     +   
 
 
