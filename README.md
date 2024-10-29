@@ -12,14 +12,14 @@ Desarrollador web FullStack
 > A continuación se encuentran todos los ejercicios propuestos por ProContacto.
 
 ### Ejercicio 1
-  - 1. Instalar el IDE Visual Studio Code:  
-   > <img src="IDEVSC.png" align="right" width=140px height=140px />  
-  - 2. Instalar GIT y GIT Bash:  
-   > <img src="GIT-GITBash.png" align="right" width=140px height=140px />  
-    
-   > Instalados ambos programas  
+  - 1. Instalar el IDE Visual Studio Code:
+    <img src="IDEVSC.png" align="letf" width=140px height=140px />
+  - 2. Instalar GIT y GIT Bash:
+    <img src="GIT-GITBash.png" align="left" width=140px height=140px />
+> Instalados ambos programas
 
-### Ejercicio 2  
+
+### Ejercicio 2
   - 1. **¿Qué es un servidor HTTP?**  
       Es una computadora que tiene un programa o servicio que almacena, procesa y entrega recursos web a una página en base a solicitudes mediante el protocolo HTTP.
   - 2. *¿Qué son los verbos HTTP? Mencionar los más conocidos*  
