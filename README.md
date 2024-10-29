@@ -86,7 +86,22 @@ Desarrollador web FullStack
         * Se puede observar, que el POST hecho en el **punto 2** ahora se ve reflejado
        
 ### Ejercicio 4
-  [Haz me clic para ver mi perfil de Trialhead](https://www.salesforce.com/trailblazer/t5dhro8lc2mqbpqhmj)
+  [Haz me clic para ver mi perfil de Trailhead](https://www.salesforce.com/trailblazer/t5dhro8lc2mqbpqhmj)
+
+### Ejercicio 5  
+
+#### Soluciones de Salesforce
+  **A.	¿Qué es Salesforce?**
+  **B.	¿Qué es Sales Cloud?**
+  **C.	¿Qué es Service Cloud?**
+  **D.	¿Qué es Health Cloud?**
+  **E.	¿Qué es Marketing Cloud?**
+
+
+### Ejercicio 6  
+
+
+
 
 
 
