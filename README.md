@@ -1,9 +1,9 @@
-# ProContacto - Evaluación Práctica
+# **ProContacto - Evaluación Práctica**
 > Una interesante forma de resolver ejercicios prácticos propuesto por ProContacto
 > <img src="profile-photo.png" align="right" width=180px height=180px />
 
 J. Jordan D. Godoy
-Desarrollador web FullStack
+Desarrollador
 
 > [!NOTE]
 > No era consciente de la importancia de los archivos README hasta antes de toparme con esta evaluación práctica, ya siento que comienzo a aprender desde el momento cero.
@@ -93,6 +93,8 @@ Desarrollador web FullStack
 
 ### Ejercicio 5  
 
+### Ejercicio 6  
+
 #### Soluciones de Salesforce
   - **¿Qué es Salesforce?**  
     + Salesforce es una plataforma de software en la nube que ofrece soluciones de gestion de relaciones con los clientes (CRM), este ayuda a las empresas a gestionar y automatizar sus procesos. Dado que es una solución en la nube, permite acceder a la información desde cualquier lugar facilitando el trabajo de sus clientes.  
@@ -143,7 +145,7 @@ Desarrollador web FullStack
 #### Conceptos generales   
 
 
-### Ejercicio 6  
+### Ejercicio 7  
 
 
 
