@@ -83,7 +83,10 @@ Desarrollador web FullStack
         <img src="2.png" align="letf"/>
    - 3. Volvemos a realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
         <img src="3.png" align="letf"/>
-        * Se puede observar, que el POST hecho en el **punto 2** ahora se ve reflejado  
+        * Se puede observar, que el POST hecho en el **punto 2** ahora se ve reflejado
+       
+### Ejercicio 4
+    [Visita mi perfil de Trialhead público con este enlace](https://www.salesforce.com/trailblazer/t5dhro8lc2mqbpqhmj)
 
 
 
