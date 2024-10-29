@@ -91,11 +91,33 @@ Desarrollador web FullStack
 ### Ejercicio 5  
 
 #### Soluciones de Salesforce
-  **A.	¿Qué es Salesforce?**
-  **B.	¿Qué es Sales Cloud?**
-  **C.	¿Qué es Service Cloud?**
-  **D.	¿Qué es Health Cloud?**
-  **E.	¿Qué es Marketing Cloud?**
+  ** A.	¿Qué es Salesforce?**  
+        + Salesforce es una plataforma de software en la nube que ofrece soluciones de gestion de relaciones con los clientes (CRM), este ayuda a las empresas a gestionar y automatizar sus procesos. Dado que es una solución en la nube, permite acceder a la información desde cualquier lugar facilitando el trabajo de sus clientes.  
+  ** B.	¿Qué es Sales Cloud?**  
+        + Sales Cloud es uno de los productos de Salesforce fabricado especialmente para optimizar procesos de ventas
+  ** C.	¿Qué es Service Cloud?**  
+        + Service Cloud es una solución enfocada en mejorar el servicio y soporte al cliente. 
+  ** D.	¿Qué es Health Cloud?**  
+        + Health Cloud es una plataforma de Salesforce enfocada en el sector de la salud. 
+  ** E.	¿Qué es Marketing Cloud?**  
+        + Marketing Cloud es una plataforma de Salesforce enfocada en mejorar y optimizar estrategias de marketing digital. 
+
+#### Funcionalidades de Salesforce  
+ ** A.	¿Qué es un RecordType?**  
+ ** B.	¿Qué es un ReportType?**  
+ ** C.	¿Qué es un Page Layout?**  
+ ** D.	¿Qué es un Compact Layout?**  
+ ** E.	¿Qué es un Perfil?**  
+ ** F.	¿Qué es un Rol?**  
+ ** G.	¿Qué es un Validation Rule?**  
+ ** H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?**  
+ ** I.	¿Qué es un Sandbox?**  
+ ** J.	¿Qué es un ChangeSet?**  
+ ** K.	¿Para qué sirve el import Wizard de Salesforce?**  
+ ** L.	¿Para qué sirve la funcionalidad Web to Lead?**  
+ ** M.	¿Para qué sirve la funcionalidad Web to Case?**  
+ ** N.	¿Para qué sirve la funcionalidad Omnichannel?**  
+ ** O.	¿Para qué sirve la funcionalidad Chatter?**  
 
 
 ### Ejercicio 6  
