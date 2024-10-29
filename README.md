@@ -89,7 +89,7 @@ Desarrollador web FullStack
 > Se puede observar, que el POST hecho en el **punto 2** ahora se ve reflejado
        
 ### Ejercicio 4
-  [Haz me clic para ver mi perfil de Trailhead](https://www.salesforce.com/trailblazer/t5dhro8lc2mqbpqhmj)
+  [Ver mi perfil de Trailhead](https://www.salesforce.com/trailblazer/t5dhro8lc2mqbpqhmj)
 
 ### Ejercicio 5  
 
@@ -109,35 +109,35 @@ Desarrollador web FullStack
 #### Funcionalidades de Salesforce
 
   - **¿Qué es un RecordType?**
-    +
+    * Respuesta 
   - **¿Qué es un ReportType?**
-    +   
+    * Respuesta  
   - **¿Qué es un Page Layout?**
-    +  
+    * Respuesta 
   - **¿Qué es un Compact Layout?**
-    +   
+    * Respuesta   
   - **¿Qué es un Perfil?**
-    +   
+    * Respuesta   
   - **¿Qué es un Rol?**
-    +  
+    * Respuesta  
   - **¿Qué es un Validation Rule?**
-    +   
+    * Respuesta   
   - **¿Qué diferencia hay entre una relación Master Detail y Lookup?**
-    +   
+    * Respuesta   
   - **¿Qué es un Sandbox?** 
-    +   
+    * Respuesta   
   - **¿Qué es un ChangeSet?**
-    +   
+    * Respuesta   
   - **¿Para qué sirve el import Wizard de Salesforce?**
-    +   
+    * Respuesta   
   - **¿Para qué sirve la funcionalidad Web to Lead?**
-    +   
+    * Respuesta   
   - **¿Para qué sirve la funcionalidad Web to Case?**
-    +   
+    * Respuesta   
   - **¿Para qué sirve la funcionalidad Omnichannel?**
-    +   
+    * Respuesta   
   - **¿Para qué sirve la funcionalidad Chatter?**
-    +   
+    * Respuesta   
 
 
 ### Ejercicio 6  
