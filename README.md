@@ -134,7 +134,7 @@ Desarrollador
      **Datos estándar:** _Title, Summary, Article Number, URL Name, Article Type, Last Published Date, Owner, Article Body, Keywords, Expiration Date._  
      Un _Article_ no está relacionado directamente con otros objetos, pero los _Case_ pueden dar uso a los _Article_ para ayudar en la asistencia al usuario.  
       <img src="Diagrama-Ejercicio-5.png" align="left" display="inline"/>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 > Diagrama de las relaciones de los objetos
 
 
