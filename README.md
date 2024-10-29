@@ -91,8 +91,7 @@ Desarrollador web FullStack
 ### Ejercicio 5  
 
 #### Soluciones de Salesforce
-  - A. **¿Qué es Salesforce?**  
-    + Salesforce es una plataforma de software en la nube que ofrece soluciones de gestion de relaciones con los clientes (CRM), este ayuda a las empresas a gestionar y automatizar sus procesos. Dado que es una solución en la nube, permite acceder a la información            desde cualquier lugar facilitando el trabajo de sus clientes.  
+  - A. **¿Qué es Salesforce?**  Salesforce es una plataforma de software en la nube que ofrece soluciones de gestion de relaciones con los clientes (CRM), este ayuda a las empresas a gestionar y automatizar sus procesos. Dado que es una solución en la nube, permite acceder a la información desde cualquier lugar facilitando el trabajo de sus clientes.  
   - B. **¿Qué es Sales Cloud?**  Sales Cloud es uno de los productos de Salesforce fabricado especialmente para optimizar procesos de ventas  
   - C. **¿Qué es Service Cloud?**  Service Cloud es una solución enfocada en mejorar el servicio y soporte al cliente.   
   - D. **¿Qué es Health Cloud?**  Health Cloud es una plataforma de Salesforce enfocada en el sector de la salud.  
