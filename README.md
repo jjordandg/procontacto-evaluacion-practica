@@ -235,38 +235,27 @@ Desarrollador
     * Salesforce **NO** es un ERP. Es principalmente un CRM, centrado en la gestión de relaciones con clientes y ventas, aunque ofrece módulos para integrarse con sistemas ERP.
 
 
-### Ejercicio 7  
+### Ejercicio 7   
 
+A continuación el código del Trigger solicitado, también se encuentra en este repositorio como un archivo .apxt
 
+```
+     trigger UpdateContactEmail  on Contact (before insert, before update) {
+        for (Contact con : Trigger.new) {
+            
+            Http http = new Http();
+            HttpRequest request = new HttpRequest();
+            request.setEndpoint('https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/' + con.idprocontacto__c + '.json');
+            request.setMethod('GET');
+            
+            HttpResponse response = http.send(request);
+            
+            Map<String, Object> jsonResponse = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
+            con.Email = (String) jsonResponse.get('email');        
+        }
+     }
+```
 
+## Para Finalizar  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+Muchas gracias por dejarme se parte de esta aventura por Salesforce, ha sido divertido y siento que aprendí y reforcé muchos conceptos. 
