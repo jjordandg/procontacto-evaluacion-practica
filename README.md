@@ -240,20 +240,26 @@ Desarrollador
 A continuación el código del Trigger solicitado, también se encuentra en este repositorio como un archivo .apxt
 
 ```
-     trigger UpdateContactEmail  on Contact (before insert, before update) {
-        for (Contact con : Trigger.new) {
+trigger UpdateContactEmail on Contact (before insert, before update) {
+    
+    if(Trigger.isBefore){
+        String idProContacto = '-O9J8hAEN3clx__fFhSj';
+        for (Contact contact :Trigger.new) {
             
-            Http http = new Http();
-            HttpRequest request = new HttpRequest();
-            request.setEndpoint('https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/' + con.idprocontacto__c + '.json');
-            request.setMethod('GET');
-            
-            HttpResponse response = http.send(request);
-            
-            Map<String, Object> jsonResponse = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
-            con.Email = (String) jsonResponse.get('email');        
+            if (contact.idprocontacto__c == idProContacto){
+                Http http = new Http();
+                HttpRequest request = new HttpRequest();
+                request.setEndpoint('https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/' + idProContacto + '.json');
+                request.setMethod('GET');
+                HttpResponse response = http.send(request);
+                
+                Map<String, Object> jsonResponse = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
+                contact.Email = (String) jsonResponse.get('email'); 
+            }  
         }
-     }
+    }   
+}
+
 ```
 
 ## Para Finalizar  
