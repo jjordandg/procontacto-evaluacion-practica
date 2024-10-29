@@ -183,7 +183,52 @@ Desarrollador
   - **¿Para qué sirve la funcionalidad Chatter?**
     * Es una herramienta de chat en Salesforce que permite a los empleados enviar mensajes, compartir archivos y trabajar en equipo dentro de la plataforma.
    
-#### Conceptos generales   
+#### Conceptos generales  
+
+  - **¿Qué significa SaaS?**  
+    * SaaS _(Software as a Service)_ es un modelo de software donde las aplicaciones se hostean en la nube y se acceden mediante internet. Los usuarios no necesitan instalar o mantener el software.
+
+  - **¿Salesforce es SaaS?**  
+    * Salesforce es una solución de SaaS ya que es plataforma de CRM (Customer Relationship Management) alojada en la nube.
+
+  - **¿Qué significa que una solución sea Cloud?**  
+    * Una solución en la nube _(Cloud)_ es aquella que se aloja en servidores remotos y se accede a través de internet. Permite a los usuarios almacenar, gestionar y procesar datos de forma remota, sin depender de infraestructura propia.
+
+  - **¿Qué significa que una solución sea On-Premise?**  
+    * Una solución _On-Premise_ es aquella que se instala y se ejecuta en los servidores y la infraestructura de la propia empresa.  
+
+  - **¿Qué es un pipeline de ventas?**  
+    * Un _pipeline_ de ventas es una representación visual de las etapas de una venta, desde el contacto inicial hasta su cierre.  
+
+  - **¿Qué es un funnel de ventas?**  
+    * Un _funnel_ de ventas es un proceso por el cual un cliente potencial pasa por varias etapas (conocimiento, interés, decisión y acción) hasta convertirse en cliente.  
+
+  - **¿Qué significa Customer Experience?**  
+    * _Customer Experience_ es la percepción que tiene un cliente sobre una empresa, basada en las interacciones que tiene con ella.  
+
+  - **¿Qué significa omnicanalidad?**  
+    * La _omnicanalidad_ es una estrategia que permite a los clientes interactuar con una empresa mediante de múltiples canales (físicos y digitales) de manera integrada y fluida, lo cual produce una experiencia continua.  
+
+  - **¿Qué significa que un negocio sea B2B? ¿Qué significa que un negocio sea B2C? ¿Qué es un KPI?**  
+    * _B2B (Business-to-Business):_ Es un modelo de negocio en el que las transacciones se realizan entre empresas.  
+    * _B2C (Business-to-Consumer):_ Es un modelo de negocio donde una empresa vende directamente a consumidores finales.  
+    * _KPI (Key Performance Indicator):_ Es un indicador clave de desempeño que se utiliza para medir el éxito de una actividad o proceso en una empresa.  
+
+  - **¿Qué es una API y en qué se diferencia de una Rest API?**  
+    * _API (Application Programming Interface):_ Es un conjunto de reglas que permite que dos aplicaciones se comuniquen entre sí.  
+    * _REST API:_ Es un tipo de API que sigue las convenciones del estilo arquitectónico REST, usando métodos HTTP (GET, POST, PUT, DELETE) para realizar operaciones en recursos identificables por URLs.  
+
+  - **¿Qué es un Proceso Batch?**  
+    * Un _Proceso batch_ es un conjunto de tareas que se ejecutan de manera secuencial y sin intervención del usuario. Suele utilizarse para procesar grandes volúmenes de datos o realizar tareas repetitivas.  
+
+  - **¿Qué es Kanban?**  
+    * _Kanban_ es una metodología visual de gestión de proyectos que usa tarjetas y tableros para representar las tareas en proceso.  
+
+  - **¿Qué es un ERP?**  
+    * _ERP (Enterprise Resource Planning)_ es un sistema de planificación de recursos empresariales que integra y gestiona procesos de negocio.  
+
+  - **¿Salesforce es un ERP?**
+    * Salesforce **NO** es un ERP. Es principalmente un CRM, centrado en la gestión de relaciones con clientes y ventas, aunque ofrece módulos para integrarse con sistemas ERP.
 
 
 ### Ejercicio 7  
