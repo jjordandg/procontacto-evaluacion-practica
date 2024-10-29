@@ -52,7 +52,7 @@ Desarrollador
 > El verbo *GET* es el verbo por defecto que se utiliza cuando no es especificado por la solicitud.
   8. *Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles*  
     * JSON (JavaScript Object Notation):* Es un formato de intercambio de datos fácil de leer y de escribir. Ejemplo:
-      ```
+   ```
       {
       "nombre": "Jordan",
       "apellido": "Godoy",
@@ -60,9 +60,10 @@ Desarrollador
       "edad": 28,
       "contratar": true
       }
-      ```
+   ```
     * XML (eXtensible Markup Language):* Es un formato más estructurado y formal, usado para representar datos, es parecido a HTML. Ejemplo:
-      ```
+
+   ```
       <candidato>
         <nombre>Jordan</nombre>
         <apellido>Godoy</apellido>
@@ -70,7 +71,7 @@ Desarrollador
         <edad>28</edad>
         <contratar>true</contratar>
       </candidato>
-      ```
+   ```
   9. *Explicar brevemente el estándar SOAP*  
       *SOAP (Simple Object Access Protocol):* Es un protocolo basado en XML que dicta cómo intercambiar mensajes estructurados entre aplicaciones a través de redes, usado mayormente en servicios web. Ofrece un alto nivel de seguridad y permite transacciones complejas.
   10. *Explicar brevemente el estándar RESTful*  
