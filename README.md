@@ -134,6 +134,10 @@ Desarrollador
      **Datos estándar:** _Title, Summary, Article Number, URL Name, Article Type, Last Published Date, Owner, Article Body, Keywords, Expiration Date._  
      Un _Article_ no está relacionado directamente con otros objetos, pero los _Case_ pueden dar uso a los _Article_ para ayudar en la asistencia al usuario.  
 
+<br></br>
+<img src="Diagrama-Ejercicio-5.png" align="left"/>
+<br></br><br></br><br></br>
+
 ### Ejercicio 6  
 
 #### Soluciones de Salesforce
