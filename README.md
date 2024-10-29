@@ -96,7 +96,7 @@ Desarrollador
   1. **Lead**  
      Un _Lead_ representa una persona o una organización con interes en los productos o servicios de la organización, pero aún no es un cliente potencial.  
      **Datos estándar:** _Name, Company, Phone, Email, Industry, Lead Source, Status, Rating, Owner._  
-     Se relaciona con los objetos _Account, Contact y Opportunity_.  
+     Se relaciona con los objetos _Account, Contact y Opportunity_ (Un _Opportunity es un _Lead_ convertido).  
   2. **Account**  
      Un _Account_ representa una empresa o una entidad con la empresa que tiene una relación.  
      **Datos estándar:** _Name, Account Number, Industry, Website, Phone, Type, Billing Address, Number of Employees, Annual Revenue, Ownership, Account Source, Parent Account, Owner._  
@@ -106,7 +106,7 @@ Desarrollador
      **Datos estándar:**  _First Name, Last Name, Account Name, Title, Phone, Email, Departament, Mailing Address, Birthdate, Lead Source, Owner._  
      Se relaciona directamente con _Accounts_ y también puede estar relacionado a múltiples _Opportunity_ y _Case_.  
   4. **Opportunity**  
-     Un _Opportunity_ es una posible venta o negocio que se produce con un _Account_  
+     Un _Opportunity_ es una posible venta o negocio que se produce con un _Account_.  
      **Datos estándar:**  _Opportunity Name, Account Name, Stage, Close Date, Amount, Probability, Lead Source, Type, Next Step, Owner._  
      Se relaciona a un _Account_, pueden incluir varios _Contact_ con _Quotes_ y _Products_.  
   5. **Product**  
@@ -156,7 +156,7 @@ Desarrollador
 #### Funcionalidades de Salesforce
 
   - **¿Qué es un RecordType?**
-    * Es una configuración que permite personalizar el comportamiento de un objeto según distintos tipos de registros. 
+    * Es una configuración que permite personalizar el comportamiento de un objeto según distintos tipos de registros, permite que un mismo objeto muestre distintos campos y se comporte de manera distinta dependiendo su tipo de registro.
   - **¿Qué es un ReportType?**
     * Es una plantilla que define qué objetos y campos están disponibles en un reporte.  
   - **¿Qué es un Page Layout?**
@@ -177,7 +177,7 @@ Desarrollador
   - **¿Qué es un ChangeSet?**
     * Es una colección de cambios que se pueden enviar de un entorno de Salesforce a otro.   
   - **¿Para qué sirve el import Wizard de Salesforce?**
-    * Sirve para importar datos en masa a Salesforce desde archivos   
+    * Sirve para importar datos en masa a Salesforce desde archivos.   
   - **¿Para qué sirve la funcionalidad Web to Lead?**
     * Es para capturar automáticamente prospectos de un formulario web y crear registros de los clientes potenciales (_leads_) en Salesforce.   
   - **¿Para qué sirve la funcionalidad Web to Case?**
@@ -185,7 +185,7 @@ Desarrollador
   - **¿Para qué sirve la funcionalidad Omnichannel?**
     * Es para gestionar y asignar solicitudes de clientes desde distintos canales como, chat y correo electrónico, a los agentes disponibles para mejorar la eficiencia del soporte.    
   - **¿Para qué sirve la funcionalidad Chatter?**
-    * Es una herramienta de chat en Salesforce que permite a los empleados enviar mensajes, compartir archivos y trabajar en equipo dentro de la plataforma.
+    * Es un apartado en Salesforce que permite a los empleados dejar comentarios, compartir archivos y etiquetar personas.
    
 #### Conceptos generales  
 
