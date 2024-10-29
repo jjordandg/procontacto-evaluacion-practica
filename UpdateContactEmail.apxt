@@ -1,0 +1,14 @@
+trigger UpdateContactEmail  on Contact (before insert, before update) {
+    for (Contact con : Trigger.new) {
+        
+        Http http = new Http();
+        HttpRequest request = new HttpRequest();
+        request.setEndpoint('https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/' + con.idprocontacto__c + '.json');
+        request.setMethod('GET');
+        
+        HttpResponse response = http.send(request);
+        
+        Map<String, Object> jsonResponse = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
+        con.Email = (String) jsonResponse.get('email');        
+    }
+}
